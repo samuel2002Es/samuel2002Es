@@ -1,0 +1,21 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+main{
+    height: calc(100vh - 9rem);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+main .main-left {
+    justify-self: left;
+}
+main .main-right {
+    justify-self: right;
+}
+main .main-left img{
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
