@@ -4,6 +4,7 @@
     padding: 0;
 }
 html{
+    min-width: 320px;
     margin: 0 auto;
     width: 80%;
     font-size: 62.5%;
@@ -12,32 +13,53 @@ html{
     overflow-y: hidden;
     height: 100vh;
 }
-a{
-    text-decoration: none;
-    cursor: pointer;
-}
-header{
+/*      HEADER        */
+.header-navegation{
     background-color: #f2f2f2;
     width: 100%;
     height: 4rem;
 }
-header nav{
+nav{
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
-header nav .nav-right-section{
-    width: 250px;
-    height: auto;
-    display: flex;
+.nav-right-section{
+    padding: 10px;
+    list-style: none;
     list-style: none;
     justify-content: center;
     align-items: center;
 }
-nav .nav-right-section a{
-    font-size: 2rem;
-    margin-right: 1rem; 
-    color: #000000;
+.nav-right-section li{
+    display: inline-block;
+    padding-left: 30px;
 }
+.nav-right-section li a{
+    width: auto;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icon{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 2px;
+    background-image: url('../img/down-arrow.svg');
+}
+.header-end{
+    margin-right: 10px;
+}
+header nav ul li a:hover{
+    color: rgb(12, 12, 92);
+}
+
+/*          main            */
 main{
     height: calc(100vh - 5rem);
     margin: 0 auto;
@@ -48,24 +70,29 @@ main .main-left img{
     width: 60%;
     border-radius: 50%;
     margin-bottom: 3rem;
+    margin-top: 30px;
 }
 main .main-right {
     margin: 0 auto;
-    width: 70%;
-    font-size: 1.5rem;
+    width: 80%;
+}
+.main-right p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
 }
 h1{
     margin-bottom: 1rem;
 }
+
+
+/*          footer        */
 footer{
     height: 1rem;
     font-size: 1rem;
-    text-align: center;
+    text-align: end;
     background-color: #f2f2f2;
     width: 80%;
     position: absolute;
     bottom: 0;
-}
-header nav ul li a:hover{
-    color: rgb(37, 37, 168);
 }
