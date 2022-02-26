@@ -1,4 +1,12 @@
-
+nav{
+    grid-template-columns: 6fr 1fr;
+}
+.nav-left-section{
+    margin-left: 50px;
+}
+.nav-right-section{
+    margin-right: 100px; 
+}
 main{ 
     height: calc(100vh - 5rem);
     display: grid;

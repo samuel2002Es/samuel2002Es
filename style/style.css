@@ -1,3 +1,7 @@
+:root{
+    /* Colores */
+    --greybackground: #f2f2f2;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,53 +9,48 @@
 }
 html{
     min-width: 320px;
-    margin: 0 auto;
-    width: 80%;
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: 100vh;
 }
 /*      HEADER        */
-.header-navegation{
-    background-color: #f2f2f2;
-    width: 100%;
-    height: 4rem;
-}
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-.nav-right-section{
-    padding: 8px;
-    list-style: none;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-.nav-right-section li{
-    display: inline-block;
-    padding-left: 10px;
-}
-.nav-right-section li a{
-    width: auto;
-    height: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: black;
+a{
+    font-size: 1.6rem;
     text-decoration: none;
+    color: rgb(34, 32, 32);
     cursor: pointer;
 }
-.icon{
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 1.5px;
-    background-image: url('../img/down-arrow.svg');
+.header-navegation{
+    min-width: 320px;
+    width: 100%;
+    height: 60px;
+    background-color: white;
 }
+nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.nav-left-section {
+    margin-left: 30px;
+    align-self: center;
+}
+.nav-left-section img{
+    width: 30px;
+    height: 30px;
+}
+.nav-right-section {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 30px; 
+}
+.nav-right-section a{
+    border-bottom: 1px solid black;
+}
+
+
 .header-end{
     margin-right: 10px;
 }
