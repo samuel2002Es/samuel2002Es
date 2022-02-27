@@ -8,19 +8,31 @@ nav{
     margin-right: 100px; 
 }
 main{ 
-    height: calc(100vh - 5rem);
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin-top: -30px;
 }
 main .main-left {
     justify-self: left;
 }
 main .main-right {
     justify-self: right;
+    max-width: 400px;
 }
 main .main-left img{
     width: 80%;
     border-radius: 50%;
     margin-bottom: 3rem;
+}
+.main-right p{
+    font-size:  2rem;
+    line-height: 3rem;
+    margin-top: 50px;
+}
+h1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 20px;
 }

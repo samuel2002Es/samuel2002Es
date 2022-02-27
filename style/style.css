@@ -1,6 +1,12 @@
 :root{
     /* Colores */
-    --greybackground: #f2f2f2;
+    --greybackground: #dad7cd;
+    ---composition-gren: #a3b18a;
+    --line-down:#344e41;
+    /* 588157 
+    3a5a40
+    344e41*/
+    /* font-family: 'Montserrat', sans-serif; */
 }
 *{
     box-sizing: border-box;
@@ -12,9 +18,17 @@ html{
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(---composition-gren);
+}
 /*      HEADER        */
 a{
-    font-size: 1.6rem;
     text-decoration: none;
     color: rgb(34, 32, 32);
     cursor: pointer;
@@ -23,7 +37,7 @@ a{
     min-width: 320px;
     width: 100%;
     height: 60px;
-    background-color: white;
+    background-color: var(--greybackground);
 }
 nav{
     display: grid;
@@ -47,51 +61,43 @@ nav{
     margin-right: 30px; 
 }
 .nav-right-section a{
-    border-bottom: 1px solid black;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    border-bottom: 1px solid var(--line-down);
 }
-
-
 .header-end{
     margin-right: 10px;
 }
-header nav ul li a:hover{
-    color: rgb(12, 12, 92);
-}
-
 /*          main            */
 main{
-    height: calc(100vh - 5rem);
+    min-width: 320px;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #f2f2f2;
 }
 main .main-left img{
     width: 60%;
     border-radius: 50%;
-    margin-bottom: 3rem;
-    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.main-left img:hover {
+    filter: blur(1px);
 }
 main .main-right {
+    max-width: 300px;
     margin: 0 auto;
     width: 80%;
 }
 .main-right p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 500;
+    font-size:  1.3rem;
+    line-height: 2rem;
 }
 h1{
-    margin-bottom: 1rem;
-}
-
-
-/*          footer        */
-footer{
-    height: 1rem;
-    font-size: 1rem;
-    text-align: end;
-    background-color: #f2f2f2;
-    width: 80%;
-    position: absolute;
-    bottom: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 20px;
 }
