@@ -25,14 +25,9 @@ main{
     background-color: #FEF5ED;
 }
 .main-product-detail{
-    position: relative;
+    display: inline-block;
     width: 100%;
     min-width: 320px;
-    height: auto;
-    padding: 0px 10px;
-    /* el padding es de 20 en arriba y abajo 
-    y 10px en los lados */
-    background-color: var(--warm-black);
 }
 .main-product-detail .papa{
     position: absolute;
