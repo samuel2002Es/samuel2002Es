@@ -82,9 +82,6 @@ main .main-left img{
     margin-bottom: 40px;
     margin-top: 50px;
 }
-.main-left img:hover {
-    filter: blur(1px);
-}
 main .main-right {
     max-width: 300px;
     margin: 0 auto;
