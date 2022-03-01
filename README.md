@@ -1,5 +1,15 @@
-### Hi there 👋
+### Hello I am Samuel
 
+*I am a web developer, i hope that my work can help other*
+
+**I enjoy: **
+-play piano
+-make new friends
+-write code
+-play soccer
+-buy 
+-go to the cinema
+-learn new thinks 
 <!--
 **samuel2002Es/samuel2002Es** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
