@@ -64,6 +64,8 @@ nav{
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.6rem;
+    /* dar espacio entre letras */
+    /* letter-spacing: ; */
     border-bottom: 1px solid var(--line-down);
 }
 .header-end{

@@ -1,26 +1,20 @@
-### Hello I am Samuel
+# Hello I am Samuel
 
-*I am a web developer, i hope that my work can help other*
+*I am a web developer, I hope that my work can help other*
 
-**I enjoy: **
--play piano
--make new friends
--write code
--play soccer
--buy 
--go to the cinema
--learn new thinks 
-<!--
-**samuel2002Es/samuel2002Es** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+MY own page is [https://samuel2002es.github.io/samuel2002Es/]()
 
-Here are some ideas to get you started:
+## I enjoy:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* play piano
+* make new friends
+* write code
+* play soccer
+* buy
+* watch movies
+* learn new thinks
+
+
+**I love taking pictures** 
+
+![1646173433578.png](image/README/1646173433578.png)
