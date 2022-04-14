@@ -98,3 +98,20 @@ nav{
     text-align: justify;
     font-size: 1.4rem;
 }
+/* Explicacion css */
+.Three{
+    height: auto;
+    margin-top: 30px;
+}
+.Three p{
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.lista-cssGrid{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+.lista-cssGrid li{
+    margin-bottom: 12px;
+}

@@ -84,6 +84,43 @@
                 RESUMEN: La diferencia entre grid e inline-grid es el comportamiento externo que tienen con otros elementos, usando grid sera de tipo bloque y usando inline-grid sera de tipo inline
                 </div>
             </div>
+            <div class="Three">
+                <h2 class="Three-title-css">Como utilizar correctamente css grid</h2>
+                <p>Es bueno mencionar que css grid layout es una herramienta de css que nos facilita mucho el trabajo de maquetacion aqui te mostrare como ocuaparla correctamente <br>el siguiente mini diccionario te puede ayudar:
+                <div class="lista-cssGrid">
+                    <ul>
+                        <li>
+                            display: grid: <br>selecciona el tipo de display a utilizar en este caso estamos hablando de grid
+                        </li>
+                        <li>
+                            grid-template-rows: 20px  fr; <br>este nos dice el tamaño de nuestra fila, y cada que se ponga un dato en ella indica tambien el numero de filas, fr significa fraccion es decir una forma de hacer responsive css grid
+                        </li>
+                        <li>
+                            grid-template-columns: 20px ; <br>este nos dice el tamaño de nuestra columna, y cada que se ponga un dato en ella indica tambien el numero de columna
+                        </li>
+                        <li>
+                            grid-template: repeat(5,20px) / repeat(5,20px); <br> nos ayuda a no escribir tanto siendo el primer numero el numero de filas o columnas respectivamente, y el segundo numero el tamaño de cada una, RECUERDA QUE PRIMERO ES FILA Y DESPUES COLUMNA
+                        </li>
+                        <li>
+                            row-gap: 5px;  <br>hace referencia a la separacion entre filas y columnas
+                        </li>
+                        <li>
+                            grid-row-gap: 5px; <br>hace referencia a la separacion entre filas y columnas es lo mismo que el anterior pero es la forma viejita
+                        </li>
+                        <li> 
+                            gap: 5px 5px; <br>hece la separacion de filas y columanas, el dato que se la pasa es la distancia entre cada final de fila con el comienzo de la otra.
+                        </li>
+                        <li>
+                            grid-template-areas: 
+                                "header header header header  header"
+                                "header header header header  header"
+                                "main     main     .              sidebar sidebar"
+                                "main     main     .              sidebar sidebar"
+                                "footer  footer   footer   footer   footer"; <br> esta es una forma de dar el espacio que corresponde a cada parte desde un inicio, con esto es mas facil trabajar 
+                            </li>
+                    </ul>
+                </div></p>
+            </div>
         </main>
 </body>
 </html>
