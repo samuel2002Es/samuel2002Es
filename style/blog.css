@@ -22,7 +22,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(---composition-gren);
 }
-a{
+header a{
     text-decoration: none;
     color: rgb(34, 32, 32);
     cursor: pointer;
@@ -73,6 +73,13 @@ nav{
     height: auto;
     padding: 30px;
 }
+/* proyectos */
+.proyects{
+    width: 80vw;
+    height: auto;
+    text-align: justify;
+    font-size: medium;
+}
 .blog-sam h2{
     font-size: 3rem;
     margin-bottom: 30px;
@@ -100,7 +107,9 @@ nav{
 }
 /* Explicacion css */
 .Three{
+    width: 80%;
     height: auto;
+    margin: 0 auto;
     margin-top: 30px;
 }
 .Three p{
@@ -119,5 +128,5 @@ nav{
     margin: 0 auto;
 }
 .Three  img{
-    width: 100%;
+    width: 80%;
 }
